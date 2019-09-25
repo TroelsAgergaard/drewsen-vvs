@@ -20,8 +20,12 @@ export default {
 <style lang="scss">
 #app {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6em;  
+  font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+h1{
+  margin: 0;
 }
 </style>

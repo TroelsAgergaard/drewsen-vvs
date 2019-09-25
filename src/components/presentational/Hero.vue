@@ -1,8 +1,10 @@
 <template>
     <header class="header">
-        <img class="header__logo" src="../../assets/drewsen-logo.png" alt="Drewsen VVS logo: Illustration af blå rørtang med påskriften Drewsen VVS">
-        <h1 class="header__title">Aut. VVS Installatør</h1>
-        <call-button></call-button>
+        <div class="header-content-wrapper">
+            <img class="header__logo" src="../../assets/drewsen-logo.png" alt="Drewsen VVS logo: Illustration af blå rørtang med påskriften Drewsen VVS">
+            <h1 class="header__title">Aut. VVS Installatør</h1>
+            <call-button></call-button>
+        </div>
     </header>
 </template>
 
@@ -17,6 +19,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+    .header-content-wrapper {
+        text-align: center;
+        z-index: 2;
+    }
     .header {
         --height: 70vh;
     }
@@ -24,11 +30,9 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         height: var(--height);
         background: url(../../assets/bg.jpg);
         background-size: cover;
-        z-index: 0;
     }
     .header:after{
         content: '';
@@ -47,17 +51,15 @@ export default {
     }
     .header__logo {
         width: 55vw;
-        margin: 15px 0;
-        z-index: 2;
         align-self: center;
         justify-self: flex-start;
     }
     .header__title {
         color: #502EFF;
         font-size: 4rem;
+        margin: 3rem 0 2.5rem;;
         font-weight: bold;
         text-align: center;
         line-height: 4rem;
-        z-index: 2;
     }
 </style>
