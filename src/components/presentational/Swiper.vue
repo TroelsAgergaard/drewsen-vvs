@@ -32,39 +32,35 @@ import Swiper from 'swiper'
 
 export default {
     name: "Employees",
-        mounted: function() {
-            var mySwiper = new Swiper('.swiper-container', {
-                // Optional parameters
-                direction: "horizontal",
-                loop: true,
-                spaceBetween: 50,
-                effect: "slide"
-                // Navigation arrows
-                // navigation: {
-                // nextEl: ".swiper-button-next",
-                // prevEl: ".swiper-button-prev",
-                // }
-            })
-        }
+    mounted: function() {
+        var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: "horizontal",
+            loop: true,
+            spaceBetween: 50,
+            effect: "slide"
+        })
+    }
 
 }
 </script>
 
 <style scoped lang="scss">
     .swiper-container {
+        display: flex;
+        align-items: center;
         box-sizing: border-box;
-        width: 100%;
-        height: 90vh;
-        padding: 3.5rem 3.5rem;
     }
     .swiper-slide{
-        width: 100%;
+        box-sizing: border-box;
         display: flex;
         align-items: center;
         flex-direction: column;
+        padding: 3.5rem 0 0 0;
     }
     .swiper-slide img {
-        width: 60vw;
+        box-sizing: border-box;
+        width: 55vw;
         box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
     }
     .employe-title {
@@ -79,7 +75,13 @@ export default {
         font-size: 1.2rem;
         margin: 0.5rem 0 0 0;
     }
+    .swiper-button-next{
+        right: 0px;
+    }
+    .swiper-button-prev{
+        left: 0;
+    }
     .swiper-button-prev, .swiper-button-next {
-        top: 35%;
+        font-size: 1.5rem;
     }
 </style>

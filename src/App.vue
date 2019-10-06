@@ -9,7 +9,7 @@
 <script>
 import Hero from "./components/presentational/Hero.vue";
 import Service from "./components/presentational/Service.vue";
-import Employees from  "./components/presentational/Employees.vue";
+import Employees from  "./components/scenes/default.vue";
 
 export default {
   components: {
