@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Galleri from './Galleri.vue'
+import Galleri from '../containers/Galleri'
 export default {
     name: "Main",
     components: {
@@ -41,7 +41,7 @@ export default {
         background-image:url(../../assets/dots.jpg);
         background-repeat: repeat;
         height: 90vh;
-        padding: 1.5rem 1.5rem;
+        padding: 3.5rem 3.5rem;
     }
     .main__header {
         line-height: 2.8rem;

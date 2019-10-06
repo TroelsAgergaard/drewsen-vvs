@@ -2,17 +2,20 @@
   <div id="app">
     <hero></hero>
     <service></service>
+    <employees></employees>
   </div>
 </template>
 
 <script>
 import Hero from "./components/presentational/Hero.vue";
 import Service from "./components/presentational/Service.vue";
+import Employees from  "./components/presentational/Employees.vue";
 
 export default {
   components: {
     Hero,
-    Service
+    Service,
+    Employees
   }
 };
 </script>
