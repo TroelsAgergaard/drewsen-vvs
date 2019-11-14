@@ -1,11 +1,11 @@
 <template>
-    <a class="header__call-button" href="tel:20468416"><i class="fas fa-phone"></i> 20 468 416</a>
+    <a class="header__call-button" href="tel:20468416"><i class="fas fa-phone-alt"></i> 20 468 416</a>
 </template>
 
 <script>
-export default {
-    name: "CallButton"
-}
+    export default {
+        name: "CallButton"
+    }
 </script>
 
 <style scoped>
@@ -16,9 +16,11 @@ export default {
         background-color: #502EFF;
         border-radius: 50px;
         z-index: 2;
+        font-size: 2rem;
     }
 
     .fas {
         margin: 0 5px 0 0;
+        color: rgb(232, 186, 51)
     }
 </style>

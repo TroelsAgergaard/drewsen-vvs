@@ -2,16 +2,16 @@
     <header class="header">
         <div class="header-content-wrapper">
             <img class="header__logo" src="../../assets/drewsen-logo.png" alt="Drewsen VVS logo: Illustration af blå rørtang med påskriften Drewsen VVS">
-            <h1 class="header__title">Aut. VVS Installatør</h1>
+            <h1 class="header__title">Aut. VVS<br>Installatør</h1>
             <call-button></call-button>
         </div>
     </header>
 </template>
 
 <script>
-import CallButton from "../containers/CallButton.vue"
+import CallButton from "../ui/CallButton.vue"
 export default {
-    name: "Hero",
+    name: "AppHero",
     components: {
         CallButton
     }
@@ -41,7 +41,6 @@ export default {
         top: 0;
         width: 100%;
         height: var(--height);
-        // background-color: rgba(211,411,211,0.3);
         background: linear-gradient(
             to bottom,
             rgb(232, 186, 51),
@@ -57,7 +56,7 @@ export default {
     .header__title {
         color: #502EFF;
         font-size: 4rem;
-        margin: 3rem 0 2.5rem;;
+        margin: 5rem 0 3.5rem 0;
         font-weight: bold;
         text-align: center;
         line-height: 4rem;

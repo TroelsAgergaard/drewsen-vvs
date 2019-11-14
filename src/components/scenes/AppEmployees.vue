@@ -1,9 +1,9 @@
 <template>
     <section class="scene-container">
         <header>
-            <h1 class="scene-title">Mød<br>Medarbejderne</h1>
+            <h1 class="heading">De<br>ansatte</h1>
         </header>
-        <Swiper></Swiper>
+        <AppSwiper></AppSwiper>
         <div class="flex-container">
             <h3>Kontakt os</h3>
             <CallButton class="test"></CallButton>
@@ -12,16 +12,16 @@
 </template>
 
 <script>
-import Swiper from "../presentational/Swiper"
-import CallButton from "../containers/CallButton"
+    import AppSwiper from "../ui/AppSwiper"
+    import CallButton from "../ui/CallButton"
 
-export default {
-    name: "Employees",
-    components: {
-        Swiper,
-        CallButton
+    export default {
+        name: "Employees",
+        components: {
+            AppSwiper,
+            CallButton
+        }
     }
-}
 </script>
 
 <style scoped lang="scss">
@@ -35,5 +35,9 @@ export default {
         flex-direction: column;
         padding: 3.5rem 0 0 0;
         align-items: center;
+    }
+    .heading{
+        line-height: 2rem;
+        font-size: 2em;
     }
 </style>

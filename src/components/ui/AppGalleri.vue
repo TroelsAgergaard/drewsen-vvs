@@ -10,9 +10,9 @@
 </template>
 
 <script>
-export default {
-    name: "Galleri"
-}
+    export default {
+        name: "Galleri"
+    }
 </script>
 
 <style scoped lang="scss">

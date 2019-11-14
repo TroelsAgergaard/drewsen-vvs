@@ -28,21 +28,21 @@
 </template>
 
 <script>
-import Swiper from 'swiper'
+    import Swiper from 'swiper'
 
-export default {
-    name: "Employees",
-    mounted: function() {
-        var mySwiper = new Swiper('.swiper-container', {
-            // Optional parameters
-            direction: "horizontal",
-            loop: true,
-            spaceBetween: 50,
-            effect: "slide"
-        })
+    export default {
+        name: "Employees",
+        mounted: function() {
+            var mySwiper = new Swiper('.swiper-container', {
+                // Optional parameters
+                direction: "horizontal",
+                loop: true,
+                spaceBetween: 50,
+                effect: "slide"
+            })
+        }
+
     }
-
-}
 </script>
 
 <style scoped lang="scss">
@@ -65,15 +65,16 @@ export default {
     }
     .employe-title {
         color: #502EFF;
-        font-weight: lighter;
+        font-weight: bolder;
         font-size: 1.5rem;
         margin: 2.5rem 0 0 0;
     }
     .employe-subtitle{
         color: #BEBEBE;
         font-weight: lighter;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin: 0.5rem 0 0 0;
+        color:rgb(232, 186, 51);
     }
     .swiper-button-next{
         right: 0px;
@@ -81,7 +82,8 @@ export default {
     .swiper-button-prev{
         left: 0;
     }
-    .swiper-button-prev, .swiper-button-next {
+    .swiper-button-prev:after, .swiper-button-next:after {
         font-size: 1.5rem;
+        color: rgb(232, 186, 51);
     }
 </style>
