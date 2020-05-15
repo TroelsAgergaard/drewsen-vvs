@@ -17,7 +17,7 @@
       </figure>
       <figure>
         <img src="../../assets/alexander.png" alt="" />
-        <h2 class="employe-title">Alexander</h2>
+        <h2 class="employe-title">Alexander Heincihson</h2>
         <h3 class="employe-subtitle">Lærling</h3>
       </figure>
       <figure>
