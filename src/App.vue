@@ -9,32 +9,46 @@
 </template>
 
 <script>
-  import AppHero from "./components/layout/AppHero.vue";
-  import AppServices from "./components/scenes/AppServices.vue";
-  import AppEmployees from  "./components/scenes/AppEmployees.vue";
-  import AppArticle from "./components/scenes/AppArticle";
-  import AppKontakt from "./components/scenes/AppKontakt";
+import Vue from "vue";
+import vueMq from "vue-mq";
 
-  export default {
-    components: {
-      AppHero,
-      AppServices,
-      AppEmployees,
-      AppArticle,
-      AppKontakt
-    }
-  };
+Vue.use(vueMq, {
+  breakpoints: {
+    sm: 768,
+    lg: Infinity
+  }
+});
+
+import AppHero from "./components/layout/AppHero.vue";
+import AppServices from "./components/scenes/AppServices.vue";
+import AppEmployees from "./components/scenes/AppEmployees.vue";
+import AppArticle from "./components/scenes/AppArticle";
+import AppKontakt from "./components/scenes/AppKontakt";
+
+export default {
+  components: {
+    AppHero,
+    AppServices,
+    AppEmployees,
+    AppArticle,
+    AppKontakt
+  }
+};
 </script>
 
 <style lang="scss">
-  #app {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.6rem;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #fff;
+html {
+  scroll-behavior: smooth;
+}
+#app {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  h1:not(.header__title) {
+    margin: 0 0 3.5rem 0;
+    font-size: calc(2.6rem + 1vw);
+    line-height: 2.8rem;
   }
-  h1{
-    margin: 0;
-  }
+}
 </style>

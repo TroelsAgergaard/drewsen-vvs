@@ -1,5 +1,5 @@
 <template>
-    <a class="header__call-button" href="tel:20468416"><i class="fas fa-phone-alt"></i> 20 468 416</a>
+    <a class="call-button" href="tel:20468416"><i class="fas fa-phone-alt"></i> 20 468 416</a>
 </template>
 
 <script>
@@ -9,14 +9,14 @@
 </script>
 
 <style scoped>
-    .header__call-button {
+    .call-button {
         padding: 15px 25px;
+        width: fit-content;
         color: #fff;
         text-decoration: none;
         background-color: #502EFF;
         border-radius: 50px;
-        z-index: 2;
-        font-size: 2rem;
+        font-size: calc(1.5rem + 1vw);
     }
 
     .fas {
