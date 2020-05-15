@@ -4,7 +4,7 @@
       <img class="header__logo" v-if="$mq === 'lg'" src="../../assets/drewsen-logo.png"
       alt="Drewsen VVS logo: Illustration
       af blå rørtang med påskriften Drewsen VVS" />
-      <img class="header__logo" v-else src="../../assets/drewsen-logo-white.png"
+      <img class="header__logo" v-else src="../../assets/drewsen-logo.png"
       alt="Drewsen VVS logo: Illustration
       af blå rørtang med påskriften Drewsen VVS" />
       <img
