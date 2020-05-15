@@ -3,9 +3,9 @@
     <h1>Vores<br />historie</h1>
     <p>
 Drewsens VVS er en familieejet virksomhed der blev etableret i 1999 af Torben Drewsen. Ved årsskiftet 2008/09, købte Bo Larsen en anpart i selskabet og blev derved medejer. I Drewsens VVS har det siden begyndelsen haft stor betydning at støtte op omkring de unges uddannelser.
-<br>
+<br><br>
 Lærertiden er en vigtig del af erhvervsuddannelsen og vi har derfor igennem alle årende være med til at løfte et vigtigt samfundsmæssigt ansvar ved, at tage lærlingeansvar og sikre en veluddannet arbejdsstyrke lokalt. For nuværende hedder firmaets dygtige lærling Aleksander.
-<br>
+<br><br>
 Vi har igennem de mere end to årtier deltaget i mange spændende projekter og løst opgaver for både boligselskaber, private og erhverv. Vores kompetencer spænder bredt og vi har siden virksomheden begyndelse sat en ære i at vores arbejde udføres håndværksmæssigt korrekt og i høj kvalitet – og sådan fortsætter det.
     </p>
   </article>
