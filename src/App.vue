@@ -40,6 +40,9 @@ export default {
 html {
   scroll-behavior: smooth;
 }
+body {
+  margin: 0;
+}
 #app {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
