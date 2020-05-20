@@ -98,7 +98,9 @@ export default {
   object-position: top;
 }
 @media screen and (min-width: 768px) {
+  
   .header {
+    height: 60vh;
     padding: 0;
     background: none;
   }
