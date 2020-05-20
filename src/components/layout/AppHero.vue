@@ -65,7 +65,7 @@ export default {
   display: none;
 }
 .header {
-  --height: 75vh;
+  --height: 60vh;
 }
 .header {
   height: var(--height);
@@ -100,6 +100,7 @@ export default {
 @media screen and (min-width: 768px) {
   
   .header {
+    height: 75vh;
     padding: 0;
     background: none;
   }
