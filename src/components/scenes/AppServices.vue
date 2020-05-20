@@ -1,7 +1,7 @@
 <template>
   <main id="service" class="main">
     <h1 class="main__header">
-      Servies
+      Services
       <br />
       & fabrikater
     </h1>

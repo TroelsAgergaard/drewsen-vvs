@@ -19,7 +19,7 @@ export default {
   data: function() {
     return {
       services: [
-        "VVS Arbejder",
+        "VVS Arbejde",
         "Blikkenslager",
         "Gas service",
         "Varmepumpe",
