@@ -40,9 +40,9 @@ export default {
   font-size: calc(2rem + 1vw);
   margin: 0 3.5rem 0 3.5rem;
 }
-.services-list:first-child {
-  margin-bottom: 3.5rem;
-}
+// .services-list:first-child {
+//   margin-bottom: 3.5rem;
+// }
 .fas {
   color: rgb(232, 186, 51);
 }
