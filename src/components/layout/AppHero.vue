@@ -65,7 +65,7 @@ export default {
   display: none;
 }
 .header {
-  --height: 65vh;
+  --height: 75vh;
 }
 .header {
   height: var(--height);
