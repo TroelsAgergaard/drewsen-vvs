@@ -50,7 +50,6 @@ export default {
 }
 p {
   font-size: calc(0.8rem + 1vw);
-  margin: 2.5rem 0 0 0;
 }
 // @media screen and (max-width: 768px) {
 //   p {
