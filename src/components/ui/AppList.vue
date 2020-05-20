@@ -38,7 +38,7 @@ export default {
   list-style-type: none;
   line-height: calc(3rem + 1vw);
   font-size: calc(2rem + 1vw);
-  margin: 0 3.5rem 0 3.5rem;
+  margin: 0 3.5rem 3.5rem 3.5rem;
 }
 // .services-list:first-child {
 //   margin-bottom: 3.5rem;
