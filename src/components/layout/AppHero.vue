@@ -65,7 +65,7 @@ export default {
   display: none;
 }
 .header {
-  --height: 55vh;
+  --height: 65vh;
 }
 .header {
   height: var(--height);
@@ -80,18 +80,12 @@ export default {
   top: 0;
   width: 100%;
   height: 75%;
-  // background: linear-gradient(
-  //   to bottom,
-  //   rgb(232, 186, 51),
-  //   rgba(rgb(232, 186, 51), 0)
-  // );
 }
 .header__logo {
   width: 80%;
   z-index: 1;
 }
 .header__title {
-  // color: #502eff;
   color: white;
   text-shadow: 1px 1px 35px #210000;
   font-size: 4rem;
