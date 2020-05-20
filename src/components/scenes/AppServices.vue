@@ -12,11 +12,11 @@
     <p>
     Drewsens VVS er autoriseret VVS-installatør. 
     <br><br>
-    Det er vigtigt at vælge en autoriseret installatør af flere grunde. Først og fremmest er det en sikkerhed for at nye installationer eller andre arbejder udføreres korrekt. Med en autoriseret VVS-installatør undgås det således som altovervejende udgangspunkt at der opstår en situation, hvor arbejdet skal laves om, eller endnu værre end følgeskade som forsikringen ikke dækker, fordi arbejdet er udført af en uautoriseret VVS-installatør. 
+    Det er vigtigt at vælge en autoriseret installatør af flere grunde. Først og fremmest er det en sikkerhed for at nye installationer eller andre arbejder udføreres korrekt. Med en <strong>autoriseret VVS-installatør</strong> undgås det således som altovervejende udgangspunkt at der opstår en situation, hvor arbejdet skal laves om, eller endnu værre end følgeskade som forsikringen ikke dækker, fordi arbejdet er udført af en uautoriseret VVS-installatør. 
     <br><br>
-    Hos Drewsen VVS udfører vi alt inden for vores håndværksmæssige fagområde, det omfatter både blikkenslagerarbejde, gaskedelskift, og installation af alternative energikilder som jordvarme og luft-til-vand anlæg. Vi løser opgave for private kunder, erhvervs- og vi servicerer flere andelsboliger i København, og udfører renoveringsopgaver forskellige steder. Blandt andet på Dragsholm Slot.
+    Hos Drewsen VVS udfører vi alt inden for vores håndværksmæssige fagområde, det omfatter både <strong>blikkenslagerarbejde</strong>, <strong>gaskedelskift</strong>, og installation af <strong>alternative energikilder</strong> som <strong>jordvarme</strong> og <strong>luft-til-vand anlæg</strong>. Vi løser opgave for private kunder, erhvervs- og vi servicerer flere andelsboliger i København, og udfører renoveringsopgaver forskellige steder. Blandt andet på Dragsholm Slot.
     <br><br>
-    Igennem årene har vi udført mange installationer og vi er eksperter på fabrikaterne – Viessmann, Beretta gaskedler, Bosch og Vølund varmeteknik. Du kan altid rådføre dig hos os, omkring alle VVS-relaterede opgaver, fabrikater eller indhente et uforpligtende tilbud. 
+    Igennem årene har vi udført mange installationer og vi er eksperter på fabrikaterne – <strong>Viessmann</strong>, <strong>Beretta gaskedler</strong>, <strong>Bosch</strong> og <strong>Vølund varmeteknik</strong>. Du kan altid rådføre dig hos os, omkring alle VVS-relaterede opgaver, fabrikater eller indhente et uforpligtende tilbud. 
     </p>
   </main>
 </template>

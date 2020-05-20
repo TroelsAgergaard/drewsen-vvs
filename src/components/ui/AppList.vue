@@ -5,11 +5,11 @@
         <span class="fa-li"><i class="fas fa-tools"></i></span>{{ service }}
       </li>
     </ul>
-    <ul v-if="$mq == 'sm'" class="services-list fa-ul">
+    <!-- <ul v-if="$mq == 'sm'" class="services-list fa-ul">
       <li v-for="(fabrikater, id) in fabrikater" :key="id">
         <span class="fa-li"><i class="fas fa-cogs"></i></span>{{ fabrikater }}
       </li>
-    </ul>
+    </ul> -->
   </section>
 </template>
 
