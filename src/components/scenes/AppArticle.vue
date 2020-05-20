@@ -28,7 +28,7 @@ export default {
   padding: 3.5rem 3.5rem;
   box-sizing: border-box;
   p {
-    font-size: calc(0.8rem + 1vw);
+    font-size: calc(1rem + 1vw);
     margin: 0;
   }
 }
