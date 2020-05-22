@@ -10,7 +10,7 @@
       <AppGalleri v-if="$mq === 'lg'"></AppGalleri>
     </section>
     <p>
-    <strong>Drewsens VVS er autoriseret VVS-installatør.</strong>
+    <strong class="mt10">Drewsens VVS er autoriseret VVS-installatør.</strong>
     <br><br>
     Det er vigtigt at vælge en autoriseret installatør af flere grunde. Først og fremmest er det en sikkerhed for at nye installationer eller andre arbejder udføreres korrekt. Med en <strong>autoriseret VVS-installatør</strong> undgås det således som altovervejende udgangspunkt at der opstår en situation, hvor arbejdet skal laves om, eller endnu værre end følgeskade som forsikringen ikke dækker, fordi arbejdet er udført af en uautoriseret VVS-installatør. 
     <br><br>
@@ -52,9 +52,12 @@ p {
   font-size: calc(1rem + 1vw);
   margin: 0;
 }
-// @media screen and (max-width: 768px) {
-//   p {
-//     display: none;
-//   }
-// }
+@media screen and (max-width: 768px) {
+  // p {
+  //   display: none;
+  // }
+  .mt10{
+    margin: 3.5rem 0 0 0;
+  }
+}
 </style>
