@@ -52,12 +52,12 @@ p {
   font-size: calc(1rem + 1vw);
   margin: 0;
 }
-@media screen and (max-width: 768px) {
+.mt10{
+  margin: 3.5rem 0 0 0;
+}
+// @media screen and (max-width: 768px) {
   // p {
   //   display: none;
   // }
-  .mt10{
-    margin: 3.5rem 0 0 0;
-  }
-}
+// }
 </style>
