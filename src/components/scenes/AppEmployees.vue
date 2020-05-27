@@ -1,27 +1,30 @@
 <template>
   <section id="medarbejdere" class="scene-container">
     <header>
-      <h1 class="heading">De<br />ansatte</h1>
+      <h1 class="heading">
+        De
+        <br />ansatte
+      </h1>
     </header>
     <AppSwiper v-if="$mq === 'sm'"></AppSwiper>
     <section class="employe-list" v-if="$mq === 'lg'">
       <figure>
-        <img src="../../assets/torben.png" alt="" />
+        <img src="../../assets/torben.png" alt />
         <h2 class="employe-title">Torben Drewsen</h2>
         <h3 class="employe-subtitle">Indehaver</h3>
       </figure>
       <figure>
-        <img src="../../assets/bo.png" alt="" />
+        <img src="../../assets/bo.png" alt />
         <h2 class="employe-title">Bo Larsen</h2>
         <h3 class="employe-subtitle">Indehaver</h3>
       </figure>
       <figure>
-        <img src="../../assets/alexander.png" alt="" />
+        <img src="../../assets/alexander.png" alt />
         <h2 class="employe-title">Alexander Heincihson</h2>
-        <h3 class="employe-subtitle">Lærling</h3>
+        <h3 class="employe-subtitle">Svend</h3>
       </figure>
       <figure>
-        <img src="../../assets/bodil.png" alt="" />
+        <img src="../../assets/bodil.png" alt />
         <h2 class="employe-title">Bodil Drewsen</h2>
         <h3 class="employe-subtitle">Kontor</h3>
       </figure>
