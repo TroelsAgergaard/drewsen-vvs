@@ -1,18 +1,13 @@
 <template>
   <address id="kontakt" class="vcard">
-    <h1 class="vcard__header">Kontakt<br />& information</h1>
+    <h1 class="vcard__header">
+      Kontakt
+      <br />& information
+    </h1>
     <section class="flex-wrapper">
       <section class="vcards">
-        <AppVcard
-          name="Torben Drewsen"
-          email="torben@drewsen-vvs.dk"
-          tel="20 46 84 16"
-        ></AppVcard>
-        <AppVcard
-          name="Bo Larsen"
-          email="bo@drewsen-vvs.dk"
-          tel="40 26 62 30"
-        ></AppVcard>
+        <AppVcard name="Torben Drewsen" email="torben@drewsen-vvs.dk" tel="20 46 84 16"></AppVcard>
+        <AppVcard name="Bo Larsen" email="blvvs@gmail.com" tel="40 26 62 30"></AppVcard>
         <AppVcard name="LYGAS" tel="50 13 14 15"></AppVcard>
       </section>
       <section class="adresse">
@@ -21,7 +16,7 @@
         <p></p>
         <p>Værksted, Rebslagervej 6D.</p>
         <p>4300 Holbæk</p>
-        <img class="header__logo" src="../../assets/drewsen-logo.png" alt="">
+        <img class="header__logo" src="../../assets/drewsen-logo.png" alt />
       </section>
     </section>
   </address>
@@ -39,7 +34,7 @@ export default {
 
 <style scoped lang="scss">
 .header__logo {
-display: none;
+  display: none;
 }
 .flex-wrapper {
   display: block;
@@ -72,11 +67,11 @@ h2 {
   margin: 0;
 }
 @media screen and (min-width: 768px) {
-.header__logo {
+  .header__logo {
     display: block;
     margin: 3.5rem 0 0 0;
     width: 30vw;
-}
+  }
   .flex-wrapper {
     display: flex;
     justify-content: space-between;

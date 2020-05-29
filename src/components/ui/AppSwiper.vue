@@ -18,7 +18,7 @@
       </div>
       <div class="swiper-slide">
         <img src="../../assets/gustavhoejkolding.jpg" alt />
-        <h2 class="employe-title">Hustav Høj Kolding</h2>
+        <h2 class="employe-title">Gustav Høj Kolding</h2>
         <h3 class="employe-subtitle">Lærling</h3>
       </div>
       <div class="swiper-slide">
