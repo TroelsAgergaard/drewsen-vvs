@@ -24,6 +24,11 @@
         <h3 class="employe-subtitle">Svend</h3>
       </figure>
       <figure>
+        <img src="../../assets/gustavhøjkolding.jpg" alt />
+        <h2 class="employe-title">Gustav Høj Kolding</h2>
+        <h3 class="employe-subtitle">Lærling</h3>
+      </figure>
+      <figure>
         <img src="../../assets/bodil.png" alt />
         <h2 class="employe-title">Bodil Drewsen</h2>
         <h3 class="employe-subtitle">Kontor</h3>

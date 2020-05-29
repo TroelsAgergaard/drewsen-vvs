@@ -2,21 +2,30 @@
   <main id="service" class="main">
     <h1 class="main__header">
       Services
-      <br />
-      & fabrikater
+      <br />& fabrikater
     </h1>
     <section class="flex-container">
       <AppList></AppList>
       <AppGalleri v-if="$mq === 'lg'"></AppGalleri>
     </section>
     <p>
-    <strong class="mt10">Drewsens VVS er autoriseret VVS-installatør.</strong>
-    <br><br>
-    Det er vigtigt at vælge en autoriseret installatør af flere grunde. Først og fremmest er det en sikkerhed for at nye installationer eller andre arbejder udføreres korrekt. Med en <strong>autoriseret VVS-installatør</strong> undgås det således som altovervejende udgangspunkt at der opstår en situation, hvor arbejdet skal laves om, eller endnu værre end følgeskade som forsikringen ikke dækker, fordi arbejdet er udført af en uautoriseret VVS-installatør. 
-    <br><br>
-    Hos Drewsen VVS udfører vi alt inden for vores håndværksmæssige fagområde, det omfatter både <strong>blikkenslagerarbejde</strong>, <strong>gaskedelskift</strong>, og installation af <strong>alternative energikilder</strong> som <strong>jordvarme</strong> og <strong>luft-til-vand anlæg</strong>. Vi løser opgave for private kunder, erhvervs- og vi servicerer flere andelsboliger i København, og udfører renoveringsopgaver forskellige steder. Blandt andet på Dragsholm Slot.
-    <br><br>
-    Igennem årene har vi udført mange installationer og vi er eksperter på fabrikaterne – <strong>Viessmann</strong>, <strong>Beretta gaskedler</strong>, <strong>Bosch</strong> og <strong>Vølund varmeteknik</strong>. Du kan altid rådføre dig hos os, omkring alle VVS-relaterede opgaver, fabrikater eller indhente et uforpligtende tilbud. 
+      <strong>Drewsens VVS er autoriseret VVS-installatør.</strong>
+      <br />
+      <br />Det er vigtigt at vælge en autoriseret installatør af flere grunde. Først og fremmest er det en sikkerhed for at nye installationer eller andre arbejder udføreres korrekt. Med en
+      <strong>autoriseret VVS-installatør</strong> undgås det således som altovervejende udgangspunkt at der opstår en situation, hvor arbejdet skal laves om, eller endnu værre end følgeskade som forsikringen ikke dækker, fordi arbejdet er udført af en uautoriseret VVS-installatør.
+      <br />
+      <br />Hos Drewsen VVS udfører vi alt inden for vores håndværksmæssige fagområde, det omfatter både
+      <strong>blikkenslagerarbejde</strong>,
+      <strong>gaskedelskift</strong>, og installation af
+      <strong>alternative energikilder</strong> som
+      <strong>jordvarme</strong> og
+      <strong>luft-til-vand anlæg</strong>. Vi løser opgave for private kunder, erhvervs- og vi servicerer flere andelsboliger i København, og udfører renoveringsopgaver forskellige steder. Blandt andet på Dragsholm Slot.
+      <br />
+      <br />Igennem årene har vi udført mange installationer og vi er eksperter på fabrikaterne –
+      <strong>Viessmann</strong>,
+      <strong>Beretta gaskedler</strong>,
+      <strong>Bosch</strong> og
+      <strong>Vølund varmeteknik</strong>. Du kan altid rådføre dig hos os, omkring alle VVS-relaterede opgaver, fabrikater eller indhente et uforpligtende tilbud.
     </p>
   </main>
 </template>
@@ -50,14 +59,11 @@ export default {
 }
 p {
   font-size: calc(1rem + 1vw);
-  margin: 0;
-}
-.mt10{
   margin: 3.5rem 0 0 0;
 }
-// @media screen and (max-width: 768px) {
-  // p {
-  //   display: none;
-  // }
-// }
+@media screen and (max-width: 768px) {
+  p {
+    margin: 0;
+  }
+}
 </style>
