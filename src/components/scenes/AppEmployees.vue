@@ -24,7 +24,7 @@
         <h3 class="employe-subtitle">Svend</h3>
       </figure>
       <figure>
-        <img src="../../assets/gustavhøjkolding.jpg" alt />
+        <img src="../../assets/gustavhoejkolding.jpg" alt />
         <h2 class="employe-title">Gustav Høj Kolding</h2>
         <h3 class="employe-subtitle">Lærling</h3>
       </figure>
