@@ -12,7 +12,7 @@
       <strong>Drewsens VVS er autoriseret VVS-installatør.</strong>
       <br />
       <br />Det er vigtigt at vælge en autoriseret installatør af flere grunde. Først og fremmest er det en sikkerhed for at nye installationer eller andre arbejder udføreres korrekt. Med en
-      <strong>autoriseret VVS-installatør</strong> undgås det således som altovervejende udgangspunkt at der opstår en situation, hvor arbejdet skal laves om, eller endnu værre end følgeskade som forsikringen ikke dækker, fordi arbejdet er udført af en uautoriseret VVS-installatør.
+      <strong>autoriseret VVS-installatør</strong> undgås det således som altovervejende udgangspunkt at der opstår en situation, hvor arbejdet skal laves om, eller endnu værre en følgeskade som forsikringen ikke dækker, fordi arbejdet er udført af en uautoriseret VVS-installatør.
       <br />
       <br />Hos Drewsen VVS udfører vi alt inden for vores håndværksmæssige fagområde, det omfatter både
       <strong>blikkenslagerarbejde</strong>,
