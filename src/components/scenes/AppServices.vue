@@ -59,11 +59,11 @@ export default {
 }
 p {
   font-size: calc(1rem + 1vw);
-  margin: 3.5rem 0 0 0;
+  margin: 0 0 0 0;
 }
 @media screen and (min-width: 768px) {
   p {
-    margin: 0;
+    margin: 3.5rem 0 0 0;
   }
 }
 </style>

@@ -60,7 +60,7 @@ figure {
 }
 .employe-title {
   text-align: center;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.4rem + 0.8vw);
   font-weight: lighter;
   margin: 1rem 0 0 0;
 }
@@ -68,7 +68,7 @@ figure {
   color: #bebebe;
   text-align: center;
   font-weight: lighter;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.4rem + 0.8vw);
   margin: 0.2rem 0 1rem 0;
   color: rgb(232, 186, 51);
 }
@@ -77,7 +77,7 @@ figure {
   justify-content: space-between;
 }
 .employe-list img {
-  width: 20vw;
+  width: 15vw;
 }
 .scene-container {
   padding: 3.5rem 3.5rem;
