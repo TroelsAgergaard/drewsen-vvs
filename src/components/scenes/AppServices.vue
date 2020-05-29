@@ -61,7 +61,7 @@ p {
   font-size: calc(1rem + 1vw);
   margin: 3.5rem 0 0 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   p {
     margin: 0;
   }
