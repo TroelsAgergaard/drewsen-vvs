@@ -7,7 +7,7 @@
     <section class="flex-wrapper">
       <section class="vcards">
         <AppVcard name="Torben Drewsen" email="torben@drewsens-vvs.dk" tel="20 46 84 16"></AppVcard>
-        <AppVcard name="Bo Larsen" email="blvvs1@gmail.com" tel="40 26 62 30"></AppVcard>
+        <!-- <AppVcard name="Bo Larsen" email="blvvs1@gmail.com" tel="40 26 62 30"></AppVcard> -->
         <AppVcard name="LYGAS" tel="50 13 14 15"></AppVcard>
       </section>
       <section class="adresse">
