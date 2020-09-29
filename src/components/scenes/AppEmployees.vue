@@ -56,7 +56,7 @@ export default {
 
 <style scoped lang="scss">
 figure {
-  margin: 3.5rem 0 1.5rem 0;
+  margin: 3.5rem 1rem 1.5rem 0;
 }
 .employe-title {
   text-align: center;
