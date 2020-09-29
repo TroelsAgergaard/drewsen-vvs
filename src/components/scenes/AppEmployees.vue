@@ -13,7 +13,7 @@
         <h2 class="employe-title">Torben Drewsen</h2>
         <h3 class="employe-subtitle">Indehaver</h3>
       </figure>
-      <figure>
+      <!-- <figure>
         <img src="../../assets/bo.png" alt />
         <h2 class="employe-title">Bo Larsen</h2>
         <h3 class="employe-subtitle">Indehaver</h3>
@@ -27,7 +27,7 @@
         <img src="../../assets/gustavhoejkolding.jpg" alt />
         <h2 class="employe-title">Gustav Høj Kolding</h2>
         <h3 class="employe-subtitle">Lærling</h3>
-      </figure>
+      </figure> -->
       <figure>
         <img src="../../assets/bodil.png" alt />
         <h2 class="employe-title">Bodil Drewsen</h2>
