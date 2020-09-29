@@ -74,7 +74,7 @@ figure {
 }
 .employe-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .employe-list img {
   width: 15vw;
